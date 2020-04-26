@@ -17,15 +17,15 @@ include_directories(rapidxml-1.13)
 add_subdirectory(support)
 include_directories(support)
 
-include_directories(.)
+include_directories(src)
 
-set(SOURCES program.cpp
-            hanan_grid.cpp
-            grid_layers.cpp
-            layered_grid.cpp
-            rect_steiner_tree.cpp
-            minimum_spanning_tree.cpp
-            rect_steiner_tree_factory.cpp)
+set(SOURCES src/program.cpp
+            src/hanan_grid.cpp
+            src/grid_layers.cpp
+            src/layered_grid.cpp
+            src/rect_steiner_tree.cpp
+            src/minimum_spanning_tree.cpp
+            src/rect_steiner_tree_factory.cpp)
 
 add_executable(steiner ${SOURCES})
 target_link_libraries(steiner PUBLIC support)
