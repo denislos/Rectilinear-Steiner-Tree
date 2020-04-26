@@ -1,0 +1,13 @@
+<root>
+  <grid min_x="0" max_x="150" min_y="0" max_y="150" />
+  <net>
+    <point x="47" y="75" layer="pins" />
+    <point x="93" y="67" layer="pins" />
+    <point x="137" y="39" layer="pins" />
+    <point x="127" y="2" layer="pins" />
+    <point x="83" y="23" layer="pins" />
+    <point x="10" y="118" layer="pins" />
+    <point x="24" y="16" layer="pins" />
+    <point x="57" y="73" layer="pins" />
+  </net>
+</root>

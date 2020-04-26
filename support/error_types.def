@@ -1,0 +1,7 @@
+
+
+DEFINE_ERROR_TYPE(NOT_ENOUGH_ARGUMENTS_PASSED, "Not enough arguments passed")
+DEFINE_ERROR_TYPE(BAD_OPEN_INPUT_FILE, "Error opening an input file")
+DEFINE_ERROR_TYPE(BAD_INPUT_FILE_FORMAT, "Input file is not correctly formatted")
+DEFINE_ERROR_TYPE(BAD_ALLOC, "Bad alloc")
+DEFINE_ERROR_TYPE(BAD_OPEN_OUTPUT_FILE, "Error opening an output file")
