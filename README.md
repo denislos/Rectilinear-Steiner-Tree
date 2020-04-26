@@ -4,6 +4,8 @@ This is a university project on Rectilinear Steiner Trees (RST)
 
 An implemented algorithm uses **Parallel Batched 1-Steiner** heuristic to construct RST. Required Minimum Spanning Trees (MST) are found using either [Prim's algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm) or **Linear-time Dynamic MST Maintenance**.
 
+Check the [Literature](#literature) for more details on algorithms.
+
 ## Requirements
 *   [Cmake](https://cmake.org/) >= 3.12
 *   [Boost](https://www.boost.org/) >= 1.67.0
@@ -26,6 +28,8 @@ cmake .. && make
 *   Run for a single XML input file: `./steiner <input file>.xml`. Output file `<input_file>_out.xml` will be created in the same directory as the input file.
 
 ## File formats
+Examples of input and output files can be found [here](examples/).
+
 #### Input file format
 XML input file should have the following format:
 
